@@ -11,6 +11,8 @@
 
 		> * {
 			border-top: solid 1px _palette(border);
+			border-left: solid 80px _palette(border);
+			border-right: solid 80pc _palette(border);
 
 			&:first-child {
 				border-top: 0;
