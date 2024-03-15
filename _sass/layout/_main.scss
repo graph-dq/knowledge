@@ -10,12 +10,14 @@
 		background-color: _palette(bg-alt);
 
 		> * {
-			border-top: solid 1px _palette(border);
-			border-left: solid 200px _palette(border);
-			border-right: solid 200px _palette(border);
+			//border-top: solid 1px _palette(border);
+			border-left: solid 250px _palette(border);
+			border-right: solid 250px _palette(border);
 
 			&:first-child {
 				border-top: 0;
+				border-left: solid 250px _palette(border);
+				border-right: solid 250px _palette(border);
 			}
 
 			@include inner;
